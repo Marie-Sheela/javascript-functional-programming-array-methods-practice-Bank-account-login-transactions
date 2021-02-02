@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+<script src="index.js" defer></script>
+<link href="index.css" rel="stylesheet"/>
+</head>
+<body>
+<!--welcome message-->
+    <p class="message"></p>
+<p class="timer">Timer</p>
+<p class="dateToday">Date</p>
+<!--login-->
+    <div>
+        <form>
+            <p>userName</p>
+            <input class="userName"/>
+            <p>pin</p>
+            <input class="pin"/>
+            <button class="login">login</button>
+        </form>
+    </div>
+
+<!--display movements+ balance + depositTotal+ withdrawTotal+interestTotal-->
+    <div class="container">
+        <p>Balance : <span class="balance"></span></p>
+        <hr>
+        <div class="movements"></div>
+        
+        <div>
+            <button class="sort">Sort</button>
+        </div>
+
+        <div class="summary">
+            <hr>
+            <p>Total deposit :<span class="depositTotal"></span></p>
+            <p>Total withdraw :<span class="withdrawTotal"></span></p>
+            <p>Total interest<span class="interestTotal"></span></p>
+        </div>
+
+    </div>
+
+<!--Transfer amount-->
+    <div >
+        <form>
+            <p>transferAmount</p>
+            <input class="transferAmount"/>
+            <p>transferTo</p>
+            <input class="transferTo"/>
+            <button class="transfer">Tranfer</button>
+        </form>
+    </div>
+<hr>
+<!--close account-->
+    <div>
+        <form>
+            <p>pin </p>
+            <input class="pinClose"/>
+            <button class="close">Close</button>
+        </form>
+    </div>
+
+<!--loan apply form-->
+    <div>
+        <form>
+            <p>loan amount</p>
+            <input class="loanAmount"/>
+            <button class="loan">Get loan</button>
+        </form>
+    </div>
+</body>
+</html>
