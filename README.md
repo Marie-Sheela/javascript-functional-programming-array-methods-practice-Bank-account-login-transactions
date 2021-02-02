@@ -9,10 +9,22 @@ i create username using first letters of each word in the name. eg MZ for Mark Z
 
 Timer:
 timer starts when user logs in.
-if user is idle for 2 mins, user is logged out.
+if user is idle for 30 seconds, user is logged out.
 if user makes any transfer, then I reset the timer.
+===
 
-I display welcome message and today's date.
+after login:
+I display 
+welcome message 
+today's date
+total balance
+total deposit
+total withdrawal
+total interest
+====
+
+I have different rate of interest of every person.
+===
 
 transfer money:
 user enters amount and receiver's username.
@@ -23,7 +35,7 @@ user enters pin, i check pin and delete his/her account.
 
 Request loan:
 user enters loan amount.
-i check if at least one deposit is 20 percent of the requested loan amount, if ok, i add amount to his account, if not i alert message "apply for lesser amount".
+i check if at least one deposit is 20 percent of the requested loan amount, if ok, I use a timer of 3 seconds . after 3 seconds , I add the loan amount to his account, if not i alert message "apply for lesser amount".
 
 Pseudocode:
 
