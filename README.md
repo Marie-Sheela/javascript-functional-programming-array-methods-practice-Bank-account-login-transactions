@@ -1,5 +1,26 @@
 # javascript-functional-programming-array-methods-practice-Bank-account-login-transactions
 I created  a web page for Bank account login+transactions. I used javascript array methods. I used functional programming.
+======
+Login:
+login username and pin check. I display alert error message for unsuccesful login
+
+Timer:
+timer starts when user logs in.
+if user is idle for 2 mins, user is logged out.
+if user makes any transfer, then I reset the timer.
+
+I display welcome message and today's date.
+
+transfer money:
+user enters amount and receiver's username.
+i check if receiver exists, if sender has more money than the transfer amount, then I reduce amount from sender, and add amount to receiver.
+
+close account:
+user enters pin, i check pin and delete his/her account.
+
+Request loan:
+user enters loan amount.
+i check if at least one deposit is 20 percent of the requested loan amount, if ok, i add amount to his account, if not i alert message "apply for lesser amount".
 
 Pseudocode:
 
