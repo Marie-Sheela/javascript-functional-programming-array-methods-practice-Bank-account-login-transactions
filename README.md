@@ -26,6 +26,10 @@ total interest
 I have different rate of interest of every person.
 ===
 
+sort movements:
+when user clicks sort button , i sort the movements in descending order. 
+again if user clicks i display the movements as before sorting.
+
 transfer money:
 user enters amount and receiver's username.
 i check if receiver exists, if sender has more money than the transfer amount, then I reduce amount from sender, and add amount to receiver.
