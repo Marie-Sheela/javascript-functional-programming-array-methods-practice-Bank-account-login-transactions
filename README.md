@@ -4,6 +4,9 @@ I created  a web page for Bank account login+transactions. I used javascript arr
 Login:
 login username and pin check. I display alert error message for unsuccesful login
 
+username:
+i create username using first letters of each word in the name. eg MZ for Mark Zuckerberg
+
 Timer:
 timer starts when user logs in.
 if user is idle for 2 mins, user is logged out.
