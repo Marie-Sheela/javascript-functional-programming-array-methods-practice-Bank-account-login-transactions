@@ -1,19 +1,22 @@
 # javascript-functional-programming-array-methods-practice-Bank-account-login-transactions
 I created  a web page for Bank account login+transactions. I used javascript array methods. I used functional programming.
 ======
-Login:
+
+Functions:
+
+1. Login:
 login username and pin check. I display alert error message for unsuccesful login
 
-username:
+2. create username:
 i create username using first letters of each word in the name. eg MZ for Mark Zuckerberg
 
-Timer:
+3. Timer:
 timer starts when user logs in.
 if user is idle for 30 seconds, user is logged out.
 if user makes any transfer, then I reset the timer.
 ===
 
-after login:
+4. after login:
 I display 
 welcome message 
 today's date
@@ -26,21 +29,21 @@ total interest
 I have different rate of interest of every person.
 ===
 
-sort movements:
+5. sort movements:
 when user clicks sort button , i sort the movements in descending order. 
 again if user clicks i display the movements as before sorting.
 
-transfer money:
+6. transfer money:
 user enters amount and receiver's username.
 i check if receiver exists, if sender has more money than the transfer amount, then I reduce amount from sender, and add amount to receiver.
 
-close account:
+7. close account:
 user enters pin, i check pin and delete his/her account.
 
-Request loan:
+8. Request loan:
 user enters loan amount.
 i check if at least one deposit is 20 percent of the requested loan amount, if ok, I use a timer of 3 seconds . after 3 seconds , I add the loan amount to his account, if not i alert message "apply for lesser amount".
-
+==========================================================================================================================================================================
 Pseudocode:
 
 ==>login form =>btn click => add EL=>
@@ -101,4 +104,3 @@ grantLoan(){
 start timer(){
 time=== 0 => hide container
 }
-
